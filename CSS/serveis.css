@@ -1,0 +1,84 @@
+.contentServeis h1 {
+    margin: 5em 0 1em 0;
+    opacity: 0.7;
+}
+
+.contentServeis p {
+    margin-top: 0.5em;
+    opacity: 0.6;
+}
+
+.dissenyWeb {
+    background-color: #F0F1F3;
+    margin-top: -7em;
+}
+
+.dissenyWeb h1 {
+    padding-top: 1em;
+}
+
+.detall {
+    -moz-column-count: 2;
+    -moz-column-gap: 4em;
+    -moz-column-rule: 1px solid #ccf;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 4em;
+    -webkit-column-rule: 1px solid #ccf;
+    -o-column-count: 2;
+    -o-column-gap: 4em;
+    -o-column-rule: 1px solid #ccf;
+    column-count: 2;
+    column-gap: 4em;
+    column-rule: 1px solid #ccf;
+    text-align: left;
+    height: 13em;
+}
+
+.detall img {
+    width: 3em;
+    float: left;
+    margin-left: 2em;
+}
+
+.detall p {
+    margin-left: 7em;
+}
+
+.dissenyh1 {
+    background: linear-gradient (white, #FF7900);
+    background: -webkit-linear-gradient(white, #FF7900);
+    background: -moz-linear-gradient(white, #FF7900);
+    background: -o-linear-gradient(white, #FF7900);
+    height: 5em;
+}
+
+.dissenyF {
+    margin-top: 4em;
+}
+
+.dissenyF p {
+    opacity: 0.75;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dissenyF h2 {
+    margin-top: 1em;
+    opacity: 0.65;
+}
+
+.aplicacionsh1 {
+    background: linear-gradient (white, #FF7900);
+    background: -webkit-linear-gradient(white, #FF7900);
+    background: -moz-linear-gradient(white, #FF7900);
+    background: -o-linear-gradient(white, #FF7900);
+    height: 5em;
+    margin-top: -7em;
+}
+
+.imgSep {
+    border-top: solid;
+    border-bottom: solid;
+    width: 100%;
+}

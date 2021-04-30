@@ -1,0 +1,49 @@
+.footer {
+    height: 10em;
+    width: 100%;
+    background-color: #141B24;
+    float: left;
+    margin-top: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h3 {
+    color: #FF7900;
+}
+
+.footer p {
+    color: white;
+    opacity: .75;
+}
+
+.peuRrss {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.newsletter input[type=text] {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.newsletter input[type=button] {
+    height: 2.5em;
+    width: 5em;
+    background-color: #1E1E1E;
+    color: white;
+    border: none;
+}
+
+.newsletter input[type=button]:hover {
+    background-color: #0c0c0c;
+    border: solid black 1px;
+}
+
+input[type=text] {
+    width: 20em;
+    padding: 12px 20px;
+    border-radius: 1em;
+    border: 2px solid #ccc;
+}

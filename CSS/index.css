@@ -1,0 +1,83 @@
+.index {
+    background-image: url(/IMATGES/fons2.jpg);
+    background-repeat: no-repeat;
+}
+
+.content {
+    margin: 4.5em 0 0 5em;
+    background: linear-gradient (white, wheat);
+    background: -webkit-linear-gradient(white, wheat);
+    background: -moz-linear-gradient(white, wheat);
+    background: -o-linear-gradient(white, wheat);
+    box-shadow: 10px 10px 5px 5px rgba(100, 100, 100, 0.5);
+    -moz-box-shadow: 10px 10px 5px 5px rgba(100, 100, 100, 0.5);
+    -webkit-box-shadow: 10px 10px 5px 5px rgba(100, 100, 100, 0.5);
+    -o-box-shadow: 10px 10px 5px 5px rgba(100, 100, 100, 0.5);
+    border-radius: 80px;
+    text-align: center;
+    width: 18em;
+    height: 25em;
+    padding-top: 2em;
+    opacity: 0.85;
+    float: left;
+}
+
+.content h2 {
+    font-family: lobster;
+    font-size: 2.5em;
+    color: #FF7900;
+    padding-top: 0.1em;
+}
+
+.content p {
+    padding-top: 2em;
+    font-family: pangolin;
+    color: #FF7900;
+    font-size: 1.7em;
+}
+
+.whats {
+    float: left;
+    margin: 5em 0 0 4.5em;
+}
+
+.whats img {
+    width: 7em;
+    display: block;
+    margin: auto;
+    margin-top: 1.5em;
+    filter: brightness(110%);
+}
+
+.whats img:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+.whats p {
+    color: black;
+    width: 8em;
+    font-family: lobster;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
